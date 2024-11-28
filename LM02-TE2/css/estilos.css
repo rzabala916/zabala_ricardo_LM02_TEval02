@@ -1,0 +1,81 @@
+body {
+	text-align: center;
+	margin: 2px;
+}
+
+header, footer, nav, main, section,article {
+	background-color: rgb(9, 122, 24);
+	color: #fff;
+	border-radius: 2px;
+	padding: 3px;
+	font-size: 24px;
+}
+/* Estilos del header */
+header  {
+	position: relative; /* Para que el posicionamiento absoluto funcione dentro */
+}
+
+header h4 {
+	position: absolute;
+	top: 1.5rem;
+	left: 5rem;
+	width: 10rem;
+	height: 1.5rem;
+	background-color: rgb(160, 233, 150);
+}
+/* Estilos del menú de navegación */
+nav ul {
+		/* Para posicionar la lista en una fila */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+	margin: 10; 
+	background-color: rgb(166, 221, 161);
+  }
+nav li {
+	padding: 1em;
+}
+nav ul a {
+	color: white;
+  }
+
+ul a:hover {
+	background-color: rgb(9, 109, 122);
+  }
+  /* Estilos del bloque main */
+
+main {
+	padding-right: 1.5rem;
+	border-radius: 2px;
+  }
+
+   /* Imagen float y texto alrededor de la foto de inicio */
+
+.imagen-float {
+	width: 28%;
+	float: right;
+	margin:1rem 1rem;
+}
+/* para la clase texto de  index.html*/
+.texto {
+	padding-left: 1rem;
+	text-align: justify ;
+	line-height: 2rem;;
+}
+/* para listados.html.....*/
+article {
+	background-color: rgb(223, 154, 165);
+	border-radius: 10px;
+	font-size: 25px;
+	display: inline-block;
+	margin: 5px;
+	margin-bottom: 25px;
+	padding-right: 25px;
+}
+
+article ul li {
+	text-align: left;
+}
+
+
